@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Travel Medicare Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.travelmedicare.qa.ExtentReportListener.ExtentReportListner"/>
+  </listeners>
+  <test name="Travel Medicare Test Cases(failed)">
+    <classes>
+      <class name="com.travelmedicare.qa.testcases.CreateAccountPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createAccount" invocation-numbers="0 1 2 3"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.travelmedicare.qa.testcases.CreateAccountPageTest -->
+    </classes>
+  </test> <!-- Travel Medicare Test Cases(failed) -->
+</suite> <!-- Failed suite [Travel Medicare Application Automation Test Suite] -->

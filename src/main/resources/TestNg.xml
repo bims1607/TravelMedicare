@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Travel Medicare Application Automation Test Suite">
+
+<listeners>
+	<listener class-name = "com.travelmedicare.qa.ExtentReportListener.ExtentReportListner"/>
+
+	
+</listeners>
+	<test name = "Travel Medicare Test Cases">
+		<classes>
+			<class name = "com.travelmedicare.qa.testcases.LoginPageTest"></class>
+			<class name = "com.travelmedicare.qa.testcases.CreateAccountPageTest"></class>
+			<class name = "com.travelmedicare.qa.testcases.HomePageTests"></class>
+		
+		</classes>
+	</test>
+</suite>
